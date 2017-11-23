@@ -12,3 +12,32 @@ img {
 p {
     text-align: center;
 }
+.answers {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.answers:hover {
+    background-color: rgb(171, 172, 177);
+}
+.startGame {
+    text-align: center;
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+}
+.startGame:hover {
+    background-color: rgb(171, 172, 177);
+}
+.questionContainer {
+    display: none;
+}
+#questionHeader {
+    font-size: 20px;
+}
+#questionImg {
+    width: 550px;
+    height: 325px;
+    display: none;   
+
+}
