@@ -12,34 +12,41 @@
 
 <body>
     <div class="container">
-    <h1 id="header">General Occupational Aptitude Test</h1>
-    <div class="row" id="titleScreen">
-        <div class="col-lg-12">
-            <img src="assets/images/goat.jpg" alt="G.O.A.T">
-            <p>Hello [Insert Vault Dweller Name]! It is finally time for you to take the General Occupational Aptitude Test
-                (or G.O.A.T. for short!) Please click the button to begin the test.</p>
-            <div class="startGame">Start here!</div>
-        </div>
-
-    </div>
-    <div class="row">
-        <div class="col-lg-3" id="timer"></div>
-        <div class="col-lg-6">
-            
-                    <img id="questionImg">
-                
-            <div class="questionContainer">
-            <h1 id="questionHeader"></h1>
-            <div class="answers" id="answer1"></div>
-            <div class="answers" id="answer2"></div>
-            <div class="answers" id="answer3"></div>
-            <div class="answers" id="answer4"></div>
+        <h1 id="header">General Occupational Aptitude Test</h1>
+        <div class="row" id="titleScreen">
+            <div class="col-lg-12">
+                <img src="assets/images/goat.jpg" alt="G.O.A.T">
+                <p>Hello [Insert Vault Dweller Name]! It is finally time for you to take the General Occupational Aptitude Test
+                    (or G.O.A.T. for short!) Please click the button to begin the test.</p>
+                <div id="startGame">Start here!</div>
             </div>
+
         </div>
-        <div class="col-lg-3" id="remainingQuestions"></div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script src="assets/javascript/app.js"></script>
+        <div class="row">
+            <div class="col-lg-3" id="timer"></div>
+            <div class="col-lg-6">
+
+                <img id="questionImg" class="inactive">
+                <br>
+                <div id="result">
+                    <br>
+                <div id="nextQuestion" class="inactive">Next Question</div>
+                </div>
+                </div>
+                <div class="questionContainer inactive">
+                    <h1 id="questionHeader"></h1>
+                    <div id="answerContainer">
+                        <div class="answers" id="answer1"></div>
+                        <div class="answers" id="answer2"></div>
+                        <div class="answers" id="answer3"></div>
+                        <div class="answers" id="answer4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3" id="remainingQuestions"></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script src="assets/javascript/app.js"></script>
     </div>
 </body>
 

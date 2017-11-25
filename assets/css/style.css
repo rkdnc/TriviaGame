@@ -20,17 +20,23 @@ p {
 .answers:hover {
     background-color: rgb(171, 172, 177);
 }
-.startGame {
+#startGame {
     text-align: center;
     font-size: 16px;
     margin: 5px;
     padding: 5px;
 }
-.startGame:hover {
+#startGame:hover {
     background-color: rgb(171, 172, 177);
 }
-.questionContainer {
+#nextQuestion:hover {
+    background-color: rgb(171, 172, 177);
+}
+.inactive {
     display: none;
+}
+.active {
+    display: inline;
 }
 #questionHeader {
     font-size: 20px;
@@ -38,6 +44,9 @@ p {
 #questionImg {
     width: 550px;
     height: 325px;
-    display: none;   
-
 }
+#result {
+    padding: 5px;
+    text-align: center;
+}
+
