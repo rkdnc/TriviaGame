@@ -29,6 +29,10 @@ p {
 #startGame:hover {
     background-color: rgb(171, 172, 177);
 }
+#nextQuestion {
+    text-align: center;
+    margin-top: 200px;
+}
 #nextQuestion:hover {
     background-color: rgb(171, 172, 177);
 }

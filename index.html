@@ -23,14 +23,17 @@
 
         </div>
         <div class="row">
-            <div class="col-lg-3" id="timer"></div>
+            <div class="col-lg-3">
+                <div id="timer" class="inactive"></div>
+                <div id="nextQuestion" class="inactive">Next Question</div>
+            </div>
             <div class="col-lg-6">
 
                 <img id="questionImg" class="inactive">
                 <br>
                 <div id="result"></div>
                     <br>
-                <div id="nextQuestion" class="inactive">Next Question</div>
+                
                 
                 <div class="questionContainer inactive">
                     <h1 id="questionHeader"></h1>
@@ -42,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3" id="remainingQuestions"></div>
+            <div class="col-lg-3" id="restartGame"></div>
         </div>
         <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
         <script src="assets/javascript/app.js"></script>
